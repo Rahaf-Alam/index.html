@@ -1,0 +1,60 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background-color:rgb(189, 191, 190);
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	height:100vh;
+}
+.ad{
+	width:60%;
+	background-color:white;
+	border-radius:20px;
+	overflow:hidden;
+}
+.per{
+	font-size:11px;
+	opacity:.5;
+	padding:5px 0px;
+}
+.des{
+	font-size:25px;
+	font-family:DM Serif Display;
+}
+.des2{
+	font-size:11px;
+	font-family:arial;
+	opacity:.5;
+}
+.price strong{
+	font-size:30px;
+	color:rgb(26, 54, 28);
+	font-family:Abril Fatface;
+}
+.price strike{
+	font-size:12px;
+	opacity:.5;
+}
+.btn button{
+	border:0;
+	outline:0;
+	padding:7px 0px;
+	width:100%;
+	margin:10px 0px;
+	background-color:rgb(31, 48, 35);
+	color:white;
+	border-radius:20px;
+	font-weight:bold;
+}
+.btn button:hover{
+	background-color:rgb(22, 33, 25);
+}
+.image img{
+	height:175px;
+}
+.ad2{
+	padding:20px;
+}
